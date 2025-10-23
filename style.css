@@ -1,0 +1,43 @@
+body {
+  background: radial-gradient(circle, #1a1a2e, #16213e);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.stage {
+  max-width: 600px;
+  margin: auto;
+}
+
+.scene {
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hearts button {
+  font-size: 24px;
+  margin: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffcccb;
+}
+canvas {
+  background: #0f3460;
+  border: 2px solid #fff;
+  display: block;
+  margin: 0 auto;
+}
+#score {
+  font-size: 18px;
+  margin-top: 10px;
+}
