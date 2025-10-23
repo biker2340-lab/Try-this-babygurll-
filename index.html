@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIBI's Secret Stage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body><section class="scene game">
+  <h2>🎮 Stress Slayer</h2>
+  <canvas id="gameCanvas" width="300" height="400"></canvas>
+  <p id="score">Score: 0</p>
+</section>
+
+  <div class="stage">
+    <section class="scene moonlight">
+      <h1>🌙 BIBI’s Midnight Whisper</h1>
+      <p>Even when the world feels heavy, I’m holding your heart from here.</p>
+    </section>
+
+    <section class="scene heart-hunt">
+      <h2>💌 Heart Hunt</h2>
+      <div class="hearts">
+        <button onclick="reveal('memory')">❤️</button>
+        <button onclick="reveal('compliment')">❤️</button>
+        <button onclick="reveal('challenge')">❤️</button>
+      </div>
+      <div id="popup" class="popup"></div>
+    </section>
+
+    <section class="scene soundtrack">
+      <h2>🎧 Soundtrack of Us</h2>
+      <iframe src="YOUR_PLAYLIST_LINK_HERE" width="300" height="80" allow="autoplay"></iframe>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
